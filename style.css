@@ -1,0 +1,101 @@
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(to right,pink,violet);
+text-align: center;
+margin: 0;
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+header{
+background-color: #2c3e50;
+color: white;
+padding: 30px;
+}
+
+h1{
+font-size: 50px;
+margin: 0;
+}
+
+.subtitle{
+font-size: 18px;
+margin-top: 10px;
+}
+
+.units{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+padding: 40px;
+
+
+width: fit-content;
+margin: 120px auto;   /* This centers it vertically with space */
+border-radius: 15px;
+}
+
+.unit-card{
+background-color: white;
+width: 200px;
+padding: 20px;
+border-radius: 10px;
+text-decoration: none;
+color: black;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+font-size: 20px;
+font-weight: bold;
+}
+
+.unit-card p{
+font-size: 14px;
+margin-top: 10px;
+font-weight: normal;
+}
+
+.unit-card:hover{
+background-color: #3498db;
+color: white;
+}
+
+footer{
+margin-top: 30px;
+padding: 15px;
+background-color: #ddd;
+font-size: 14px;
+}
+.main-content{
+flex: 1; 
+}
+/* Content page styling */
+.content{
+width: 800px;
+margin: 40px auto;
+background: white;
+padding: 30px;
+border-radius: 10px;
+box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+text-align: left;
+}
+
+.content h1{
+text-align: center;
+}
+
+.content p{
+text-align: justify;
+line-height: 1.6;
+}
+
+.content ul{
+margin-left: 20px;
+}
+
+.content pre{
+background: #f4f4f4;
+padding: 10px;
+border-radius: 5px;
+overflow-x: auto;
+}
